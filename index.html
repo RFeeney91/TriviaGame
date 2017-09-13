@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Super Effetive!!!(Trivia Game)</title>
+	<meta charset="utf-8">
 
+ 	<link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+ </head>
+</head>
+<body>
+
+	<h1>Pokemon Type Test</h1>
+	<b>
+	<h2 id="count"></h2>
+<!--Need a Start Button that triggers the Javascript to load questions with timer-->
+<input id="startClock" type="submit" value="Start">
+<!--This will be added to the HTML from the Javascript-->
+<!--<div id="time-left"></div>-->
+
+<div class="form-questions">
+	<form class="q1">
+		<label>What type is Super Effective against Normal Types?</label><br>
+  			<input type="radio" name="type" value="Fire" checked> Fire
+  			<input type="radio" name="type" value="Dark"> Dark
+  			<input type="radio" name="type" value="Fighting"> Fighting 
+  			<input type="radio" name="type" value="Ghost"> Ghost  
+	</form> <br>
+
+	<form class="q2">
+		<label>Charizard is very weak to which move?</label><br>
+  			<input type="radio" name="move" value="Fire Blast" checked> Fire Blast
+  			<input type="radio" name="move" value="Solar Beam"> Solar Beam
+  			<input type="radio" name="move" value="Close Combat"> Close Combat 
+  			<input type="radio" name="move" value="Stone Edge"> Stone Edge  
+	</form> <br>
+
+	<form class="q3">
+		<label>Which Pokemon will Hydro Cannon hit for the most damage?</label><br>
+  			<input type="radio" name="Pokemon" value="Rhydon" checked> Rhydon
+  			<input type="radio" name="Pokemon" value="Blastoise"> Blastoise
+  			<input type="radio" name="Pokemon" value="Executor"> Executor 
+  			<input type="radio" name="Pokemon" value="Raichu"> Raichu  
+	</form> <br>
+
+	<form class="q4">
+		<label>Dark type Pokemon are not effected by what type?</label><br>
+  			<input type="radio" name="type" value="Fairy" checked> Fairy
+  			<input type="radio" name="type" value="Psychic"> Psychic
+  			<input type="radio" name="type" value="Steel"> Steel 
+  			<input type="radio" name="type" value="Electric"> Electric  
+	</form> <br>
+
+	<form class="q5">
+		<label>Water type is Super Effective against these types except?</label><br>
+  			<input type="radio" name="type" value="Fire" checked> Fire
+  			<input type="radio" name="type" value="Ground"> Ground
+  			<input type="radio" name="type" value="Poison"> Poison 
+  			<input type="radio" name="type" value="Rock"> Rock  
+	</form> <br>
+
+	<form class="q6">
+		<label>Which type is not weak against itself?</label><br>
+  			<input type="radio" name="type" value="Dragon" checked> Dragon
+  			<input type="radio" name="type" value="Ghost"> Ghost
+  			<input type="radio" name="type" value="Bug"> Bug  
+	</form> <br>
+	<!--Need to log users' answers and check if answers are correct then render the results right and wrong-->
+	<input id="submit" type="submit" value="Done">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
